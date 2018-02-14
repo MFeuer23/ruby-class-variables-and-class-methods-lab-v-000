@@ -3,6 +3,7 @@ class Song
   @@artists = []
   @@genres = []
   @@genre_hash = {}
+  @@songs_each_genre = []
   
   
   attr_accessor :name, :artist, :genre
