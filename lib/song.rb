@@ -16,7 +16,8 @@ class Song
     @@artists << @artist
     @@genres << @genre
     @@genres.each do |song|
-      @@genre_count[@@genres.uniq]
+      song += 1
+    end
     
   end
   
