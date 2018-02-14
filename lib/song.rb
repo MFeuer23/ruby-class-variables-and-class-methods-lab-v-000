@@ -1,7 +1,7 @@
 class Song
   @@count = 0
-  @@artist = []
-  @@genre_array = []
+  @@artists = []
+  @@genres = []
   @@genre_hash = {}
   
   attr_accessor :name, :artist, :genre
@@ -11,8 +11,8 @@ class Song
     @name = name
     @artist = artist
     @genre = genre
-    @@artist << @artist
-    @@genre_array << @genre
+    @@artists << @artist
+    @@genres << @genre
     
   end
   
