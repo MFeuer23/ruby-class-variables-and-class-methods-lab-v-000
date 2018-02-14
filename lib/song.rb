@@ -2,7 +2,7 @@ class Song
   @@count = 0
   @@artists = []
   @@genres = []
-  @@genre_hash = {}
+  @@genre_hash = Hash.new(0)
   @@songs_each_genre = []
   
   
