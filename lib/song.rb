@@ -18,7 +18,7 @@ class Song
     @@genres.each do |song|
       @@genre_hash[song] += 1
       @@genre_hash.each do |genre, song|
-        
+      end
     end
     
   end
