@@ -11,7 +11,17 @@ class Song
     @@artist_array << @artist
   end
   
+  def self.count
+    @@song_count
+  end
   
+  def self.artist
+    @@artist_array
+  end
+  
+  def self.genre
+    @@genre_array
+  end
   
   
   
