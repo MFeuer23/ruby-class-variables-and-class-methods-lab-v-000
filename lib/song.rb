@@ -40,4 +40,5 @@ class Song
       @@artist_hash[song] += 1
     end
     @@artist_hash
+  end
 end
